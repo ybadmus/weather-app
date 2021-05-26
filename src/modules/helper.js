@@ -5,7 +5,7 @@ const validateInput = (name) => {
 const renderResultView = (weather) => {
     if (weather) {
 
-        document.getElementById('result-temp').textContent = weather.main.temp;
+        document.getElementById('result-temp').textContent = `${weather.main.temp} °`;
         document.getElementById('result-place').textContent = `${weather.name}, ${weather.sys.country}`;
         document.getElementById('result-weather').textContent = weather.weather[0].main;
         document.getElementById('result-weather-desc').textContent = weather.weather[0].description;
@@ -47,5 +47,14 @@ const renderMainView = () => {
 
 }
 
+const convertTempFahrenheit = (temp) => {
+    //Convert from celsius to fahrenheit
+    return Math.round((1.8 * Number(temp) + 32) * 100) / 100;
+}
 
-export { validateInput, renderResultView, renderMainView }
+const convertTempCelsius = (temp) => {
+    //Convert from celsius to fahrenheit
+    return (5 / 9) * (Number(temp) - 32);
+}
+
+export { validateInput, renderResultView, renderMainView, convertTempFahrenheit }

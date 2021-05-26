@@ -2,7 +2,7 @@ import './reset.css';
 import './style.css';
 
 import getWeather from './modules/apiModule';
-import { validateInput, clearResultView } from './modules/helper'
+import { validateInput, renderMainView } from './modules/helper'
 
 const loadListerners = () => {
     const search_btn_listener = document.getElementById('search-btn');
@@ -13,27 +13,19 @@ const loadListerners = () => {
 
     const backBtn_listener = document.getElementById('back-btn');
     backBtn_listener.addEventListener('click', function() {
-        clearResultView();
+        renderMainView();
+    });
+
+    const change_unit_listener = document.getElementById('change-unit-btn');
+    change_unit_listener.addEventListener('click', function() {
+        const city = document.getElementById('result-place').textContent.split(', ')[0].trim();
+        getWeather(city)
     });
 };
 
 const main = () => {
-    const mainView = document.getElementById('mainView');
-    mainView.style.display = 'block';
-
-    const resultView = document.getElementById('resultView');
-    resultView.style.display = 'none';
+    renderMainView();
 };
 
 main();
 loadListerners();
-
-
-// if (event.target.id === 'change-unit-btn') {
-//     console.log('change-unit-btn clicked');
-// };
-
-// if (event.target.id === 'back-btn') {
-//     console.log('back-btn clicked');
-// };
-// }

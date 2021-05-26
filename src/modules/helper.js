@@ -26,7 +26,7 @@ const renderResultView = (weather) => {
     }
 }
 
-const clearResultView = () => {
+const renderMainView = () => {
 
     document.getElementById('result-temp').textContent = '';
     document.getElementById('result-place').textContent = '';
@@ -48,4 +48,4 @@ const clearResultView = () => {
 }
 
 
-export { validateInput, renderResultView, clearResultView }
+export { validateInput, renderResultView, renderMainView }

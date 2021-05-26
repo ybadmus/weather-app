@@ -1,10 +1,10 @@
 const validateInput = (name) => {
     return name !== '';
-}
+};
 
-const renderResultView = (weather) => {
+const loadResults = (weather) => {
+
     if (weather) {
-
         document.getElementById('result-temp').textContent = `${weather.main.temp} °`;
         document.getElementById('result-place').textContent = `${weather.name}, ${weather.sys.country}`;
         document.getElementById('result-weather').textContent = weather.weather[0].main;
@@ -15,18 +15,10 @@ const renderResultView = (weather) => {
         document.getElementById('result-pressure').textContent = weather.main.pressure;
         document.getElementById('result-mintemp').textContent = weather.main.temp_min;
         document.getElementById('result-maxtemp').textContent = weather.main.temp_max;
-
-        const mainView = document.getElementById('mainView');
-        mainView.style.display = 'none';
-
-        const resultView = document.getElementById('resultView');
-        resultView.style.display = 'block';
-
-        document.getElementById('search-input').value = '';
     }
-}
+};
 
-const renderMainView = () => {
+const clearDetailsView = () => {
 
     document.getElementById('result-temp').textContent = '';
     document.getElementById('result-place').textContent = '';
@@ -39,22 +31,31 @@ const renderMainView = () => {
     document.getElementById('result-mintemp').textContent = '';
     document.getElementById('result-maxtemp').textContent = '';
 
+};
+
+const toggleMainView = () => {
+
+    const mainView = document.getElementById('mainView');
+    mainView.style.display = 'none';
+
+    const resultView = document.getElementById('resultView');
+    resultView.style.display = 'block';
+
+};
+
+const toggleDetailsView = () => {
+
     const mainView = document.getElementById('mainView');
     mainView.style.display = 'block';
 
     const resultView = document.getElementById('resultView');
     resultView.style.display = 'none';
 
-}
+};
 
 const convertTempFahrenheit = (temp) => {
     //Convert from celsius to fahrenheit
     return Math.round((1.8 * Number(temp) + 32) * 100) / 100;
-}
+};
 
-const convertTempCelsius = (temp) => {
-    //Convert from celsius to fahrenheit
-    return (5 / 9) * (Number(temp) - 32);
-}
-
-export { validateInput, renderResultView, renderMainView, convertTempFahrenheit }
+export { validateInput, loadResults, clearDetailsView, convertTempFahrenheit, toggleMainView, toggleDetailsView }

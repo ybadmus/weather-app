@@ -2,17 +2,19 @@ import './reset.css';
 import './style.css';
 
 import getWeather from './modules/api';
-import { validateInput, loadResults, clearDetailsView, convertTempFahrenheit } from './modules/helper'
+import { validateInput, loadResults, clearDetailsView, convertTempFahrenheit, toggleMainView, toggleDetailsView } from './modules/helper'
 
 const loadListerners = () => {
     const search_btn_listener = document.getElementById('search-btn');
     search_btn_listener.addEventListener('click', function() {
         const user_input = document.getElementById('search-input').value.trim();
         if (validateInput(user_input)) {
-            const res = getWeather(user_input);
-            loadResults(res);
-            toggleMainView();
-            document.getElementById('search-input').value = '';
+            getWeather(user_input).then(resp => {
+                loadResults(resp);
+                toggleMainView();
+                document.getElementById('search-input').value = '';
+            });
+
         } else {
             console.log('Invalid entry');
         }

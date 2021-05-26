@@ -1,13 +1,14 @@
 import './reset.css';
 import './style.css';
 
-function component() {
-    const element = document.createElement('div');
+function main() {
+    const mainView = document.getElementById('mainView');
+    mainView.style.display = 'block';
 
-    element.textContent = 'hello';
+    const resultView = document.getElementById('resultView');
+    resultView.style.display = 'none';
 
-    return element;
-}
+    console.log('app loaded');
+};
 
-const content = document.getElementById('content');
-content.appendChild(component());
+main();

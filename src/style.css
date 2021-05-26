@@ -6,3 +6,11 @@
     background: black;
     color: floralwhite;
 }
+
+.main {
+    display: none;
+}
+
+.result {
+    display: none;
+}

@@ -7,7 +7,7 @@ module.exports = {
         contentBase: './dist',
     },
     output: {
-        filename: 'main .js',
+        filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
     },
     module: {

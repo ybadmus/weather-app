@@ -28,8 +28,10 @@ const loadListerners = () => {
 
     const change_unit_listener = document.getElementById('change-unit-btn');
     change_unit_listener.addEventListener('click', function() {
-        const weather = JSON.parse(localStorage.getItem(`weather-info`));
+
         if (localStorage.getItem('weather-unit') === 'fahrenheit') {
+
+            const weather = JSON.parse(localStorage.getItem(`weather-info`));
             const unit_button = document.getElementById('change-unit-btn');
             unit_button.textContent = 'C °';
 
@@ -43,16 +45,24 @@ const loadListerners = () => {
                     weather.main.temp_max = convertTempFahrenheit(weather[prop]['temp_max']);
                 }
             }
+
             localStorage.setItem('weather-unit', 'celsius');
+            return loadResults(weather)
+
         } else if (localStorage.getItem('weather-unit') === 'celsius') {
+
+            const weather = JSON.parse(localStorage.getItem(`weather-info`));
             const unit_button = document.getElementById('change-unit-btn');
             unit_button.textContent = 'F °';
 
             localStorage.setItem('weather-unit', 'fahrenheit');
+            return loadResults(weather)
+
         } else {
-            console.log('Invalid unit, please reload and try again')
+
+            console.log('Invalid unit, please reload and try again');
+
         };
-        renderResultView(weather)
     });
 };
 

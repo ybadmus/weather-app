@@ -54,7 +54,6 @@ const toggleDetailsView = () => {
 };
 
 const convertTempFahrenheit = (temp) => {
-    //Convert from celsius to fahrenheit
     return Math.round((1.8 * Number(temp) + 32) * 100) / 100;
 };
 

@@ -5,7 +5,7 @@ const validateInput = (name) => {
 const loadResults = (weather) => {
 
     if (weather) {
-        document.getElementById('result-temp').textContent = `${weather.main.temp} °`;
+        document.getElementById('result-temp').textContent = `Temp: ${weather.main.temp} °`;
         document.getElementById('result-place').textContent = `${weather.name}, ${weather.sys.country}`;
         document.getElementById('result-weather').textContent = weather.weather[0].main;
         document.getElementById('result-weather-desc').textContent = weather.weather[0].description;

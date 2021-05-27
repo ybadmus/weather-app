@@ -1,5 +1,13 @@
 .content {
-    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 3em);
+}
+
+.logo {
+    text-align: center;
 }
 
 .footer {
@@ -8,9 +16,23 @@
 }
 
 .main {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.result {
-    display: none;
+.resultView {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-summary,
+.result-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.back-btn,
+.change-unit-btn {
+    margin: 10px 0px;
 }

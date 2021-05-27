@@ -34,6 +34,8 @@ const loadListerners = () => {
             const weather = JSON.parse(localStorage.getItem(`weather-info`));
             const unit_button = document.getElementById('change-unit-btn');
             unit_button.textContent = 'C °';
+            const temp_unit = document.getElementById('temp-unit');
+            temp_unit.textContent = 'F';
 
             for (var prop in weather) {
                 if (weather.hasOwnProperty(prop) && prop === 'main') {
@@ -54,6 +56,8 @@ const loadListerners = () => {
             const weather = JSON.parse(localStorage.getItem(`weather-info`));
             const unit_button = document.getElementById('change-unit-btn');
             unit_button.textContent = 'F °';
+            const temp_unit = document.getElementById('temp-unit');
+            temp_unit.textContent = 'C';
 
             localStorage.setItem('weather-unit', 'fahrenheit');
             return loadResults(weather)
@@ -68,7 +72,7 @@ const loadListerners = () => {
 
 const main = () => {
     const mainView = document.getElementById('mainView');
-    mainView.style.display = 'block';
+    mainView.style.display = 'flex';
 
     const resultView = document.getElementById('resultView');
     resultView.style.display = 'none';

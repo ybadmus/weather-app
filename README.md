@@ -4,7 +4,7 @@
 ![screenshot](./screenshot.png)
 
 ## Live Link
-Visit the [To-do List](https://george-swift.github.io/todo-list/) to get started
+Visit the [To-do List](http://www.ybadmus.me/weather-app/) to get started
 
 ### Objectives:
 - Functional programming

@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
 body {
     font-family: 'Quattrocento Sans', sans-serif;
+    background: url('https://free4kwallpapers.com/uploads/originals/2015/10/28/the-dark-night-wallpaper.jpg');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: floralwhite;
 }
 
 .content {
@@ -27,6 +36,9 @@ body {
 .main {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    border: 1px solid floralwhite;
+    border-radius: 5px;
 }
 
 .resultView {
@@ -49,4 +61,10 @@ body {
 
 .summary {
     padding: 0px 15px 0px 0px;
+}
+
+.result-container {
+    padding: 20px;
+    border: 1px solid floralwhite;
+    border-radius: 5px;
 }

@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: calc(100vh - 3em);
+    height: 97vh;
 }
 
 .logo {
@@ -13,6 +13,10 @@
 .footer {
     background: black;
     color: floralwhite;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .main {

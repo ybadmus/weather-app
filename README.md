@@ -1,10 +1,10 @@
+##  Weather App
+The Weather App project comes at the end of the Asynchronous Javascript and APIs section of the Javascript course. It tests the knowledge of the student about asynchronous communication with promises or async/await and when to use them.
 
-
-## To-do List
 ![screenshot](./screenshot.png)
 
 ## Live Link
-Visit the [To-do List](http://www.ybadmus.me/weather-app/) to get started
+Visit the [Weather App](http://www.ybadmus.me/weather-app/) to get started
 
 ### Objectives:
 - Functional programming
@@ -14,9 +14,6 @@ Visit the [To-do List](http://www.ybadmus.me/weather-app/) to get started
 - DOM manipulation
 - ES6 Async and Await
 - Sending and receiving API calls
-
-## weather-app
-The Weather App project comes at the end of the Asynchronous Javascript and APIs section of the Javascript course. It tests the knowledge of the student about asynchronous communication with promises or async/await and when to use them.
 
 ## Prerequisites
 - Internet Connection
@@ -51,7 +48,7 @@ The Weather App project comes at the end of the Asynchronous Javascript and APIs
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org)
-- [Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/todo-list)
+- [Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app)
 - [Open Weather](https://openweathermap.org/)
 
 ## Show your support

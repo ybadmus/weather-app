@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -34,9 +39,14 @@
     display: flex;
     flex-direction: row;
     gap: 1em;
+    margin-bottom: 20px;
 }
 
 .back-btn,
 .change-unit-btn {
     margin: 10px 0px;
+}
+
+.summary {
+    padding: 0px 15px 0px 0px;
 }

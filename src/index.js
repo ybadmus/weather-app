@@ -116,7 +116,7 @@ const loadListerners = () => {
 };
 
 const main = () => {
-    document.body.style.background = `url(${darkNight})`;
+    document.body.classList.add('background-lightning');
 
     const mainView = document.getElementById('mainView');
     mainView.style.display = 'flex';

@@ -1,16 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
 body {
     font-family: 'Quattrocento Sans', sans-serif;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     color: floralwhite;
 }
 
 .background-home {
-    background: url("file:///C:/Users/Yusif/source/Microverse/Javascript/weather-app/dist/dc70c94115ae09f9abdd.jpg");
+    background: url("./the-dark-night-wallpaper.jpg");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-clear {
+    background: url("./clear.gif");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-cloudy {
+    background: url("./cloudy.gif");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-drizzle {
+    background: url("./drizzle.gif");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-lightning {
+    background: url("./lightning.gif");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-rainy {
+    background: url("./rainy.gif");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-snowy {
+    background: url("./snowy.gif");
     background-position-y: 0%;
     background-repeat: no-repeat;
     background-size: cover;

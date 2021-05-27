@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="loader loader-default" id="loader"></div>
+    <div class="content" id="content">
+        <div id="mainView" class="main">
+            <div id="logo" class="logo">WeatherApp</div>
+
+            <div id="city-form" class="city-form">
+                <div class="form-div">
+                    <input type="text" name="search-input" id="search-input" placeholder="Your city here" />
+                    <button id="search-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+                id="search-btn-svg"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="resultView" class="result">
+
+            <div id="result-container" class="result-container">
+                <button id="back-btn" class="back-btn"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
+                  </svg> Back
+                </button>
+
+                <div class="result-summary">
+                    <div class="summary">
+                        <div><span id="result-temp"></span> <span id="temp-unit">C</span></div>
+                        <div id="result-place">Accra, GH</div>
+                        <button id="change-unit-btn" class="change-unit-btn">Change Unit (F °)</button>
+                    </div>
+                    <div class="summary">
+                        <div>
+                            <div>Weather: <span id="result-weather"></span></div>
+                            <div>Description: <span id="result-weather-desc"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-detail">
+                    <div class="result-item">
+                        <h2>Feels like</h2>
+                        <span id="result-feeling"></span>°
+                    </div>
+                    <div class="result-item">
+                        <h2>Humidity</h2>
+                        <span id="result-humidity"></span>%
+                    </div>
+                    <div class="result-item">
+                        <h2>Pressure</h2>
+                        <span id="result-pressure">
+                            </span>mb
+                    </div>
+                    <div class="result-item">
+                        <h2>Min temp</h2>
+                        <span id="result-mintemp"></span>°
+                    </div>
+                    <div class="result-item">
+                        <h2>Max temp</h2>
+                        <span id="result-maxtemp"></span>°
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <p>Weather API courtesy of OpenWeather</p>
+        </div>
+        <div>
+            <p>Made by Yusif Badmus - 2021</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

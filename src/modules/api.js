@@ -1,6 +1,6 @@
 const getWeather = async city => {
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=25a7b4863d6268c053b2a605c77f8dac`, { mode: 'cors' });
+        const response = await fetch(`${process.env.BASE_URL}?q=${city}&appid=${process.env.API_KEY}`, { mode: 'cors' });
         const weather = await response.json();
         localStorage.setItem('weather-info', JSON.stringify(weather));
         localStorage.setItem('weather-unit', 'fahrenheit');

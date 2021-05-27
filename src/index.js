@@ -2,8 +2,6 @@ import './reset.css';
 import './style.css';
 import './css-loader.css';
 
-import darkNight from './the-dark-night-wallpaper.jpg';
-
 import getWeather from './modules/api';
 import {
     validateInput,
@@ -116,13 +114,13 @@ const loadListerners = () => {
 };
 
 const main = () => {
-    document.body.classList.add('background-lightning');
+    document.body.classList.add('background-home');
 
     const mainView = document.getElementById('mainView');
-    mainView.style.display = 'flex';
+    mainView.classList.add('display-flex');
 
     const resultView = document.getElementById('resultView');
-    resultView.style.display = 'none';
+    resultView.classList.add('display-none');
 };
 
 main();

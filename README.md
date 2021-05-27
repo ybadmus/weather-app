@@ -30,12 +30,15 @@ Visit the [Weather App](http://www.ybadmus.me/weather-app/) to get started
 - NPM
 
 ## Getting Started
-- To get started with the app, clone this project by running `git clone https://github.com/ybadmus/weather-app.git`
-- Run `npm install` to install the needed packages and dependencies
-- Open the directory in your preferred IDE to view source files
-- Development tools are included in the npm script. Run `npm run watch` and fire up a local server to view any dev changes.
-- Open the index.html file in the `./dist` folder to lunch the application in the browser.
-- To terminate the server, enter `Ctrl + C` in your terminal
+- To get started with the app, create an account on OpenWeather official website and obtain your API Key.
+- Clone this project by running `git clone https://github.com/ybadmus/weather-app.git`.
+- Run `npm install` to install the needed packages and dependencies.
+- Open the directory in your preferred IDE to view source files.
+- Add a new .env file to the root folder.
+- Add `API_KEY='The key you got in step 1'` and `BASE_URL=https://api.openweathermap.org/data/2.5/weather` in the .env file.
+- Run `npm run watch` and fire up a local server to view any dev changes.
+- Open the index.html file in the `./dist` folder or visit `http://localhost:8080/` to launch the application in the browser.
+- To terminate the server, enter `Ctrl + C` in your terminal.
 
 ## Authors
 

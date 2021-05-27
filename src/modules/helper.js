@@ -5,6 +5,9 @@ const loadResults = (weather) => {
         document.getElementById('result-temp').textContent = `Temp: ${weather.main.temp} °`;
         document.getElementById('result-place').textContent = `${weather.name}, ${weather.sys.country}`;
         document.getElementById('result-weather').textContent = weather.weather[0].main;
+
+        document.body.className = `background-${weather.weather[0].main.toLowerCase()}`;
+
         document.getElementById('result-weather-desc').textContent = weather.weather[0].description;
 
         document.getElementById('result-feeling').textContent = weather.main.feels_like;
@@ -30,18 +33,22 @@ const clearDetailsView = () => {
 
 const toggleMainView = () => {
     const mainView = document.getElementById('mainView');
+    mainView.classList.remove('display-flex');
     mainView.classList.add('display-none');
 
     const resultView = document.getElementById('resultView');
+    resultView.classList.remove('display-none');
     resultView.classList.add('display-flex');
 };
 
 const toggleDetailsView = () => {
-    const mainView = document.getElementById('mainView');
-    mainView.classList.add('display-flex');
-
     const resultView = document.getElementById('resultView');
+    resultView.classList.remove('display-flex');
     resultView.classList.add('display-none');
+
+    const mainView = document.getElementById('mainView');
+    mainView.classList.remove('display-none');
+    mainView.classList.add('display-flex');
 };
 
 const convertTempFahrenheit = (temp) => Math.round((1.8 * Number(temp - 273.15) + 32) * 100) / 100;

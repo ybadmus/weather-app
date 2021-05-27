@@ -61,6 +61,7 @@ const loadListerners = () => {
     backBtnListener.addEventListener('click', () => {
         clearDetailsView();
         toggleDetailsView();
+        document.body.className = 'background-atmosphere';
     });
 
     const changeUnitListener = document.getElementById('change-unit-btn');
@@ -114,7 +115,7 @@ const loadListerners = () => {
 };
 
 const main = () => {
-    document.body.classList.add('background-home');
+    document.body.className = 'background-atmosphere';
 
     const mainView = document.getElementById('mainView');
     mainView.classList.add('display-flex');

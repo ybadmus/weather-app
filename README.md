@@ -1,7 +1,7 @@
 
 
 ## To-do List
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.PNG)
 
 ## Live Link
 Visit the [To-do List](https://george-swift.github.io/todo-list/) to get started

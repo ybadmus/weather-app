@@ -1,5 +1,8 @@
 import './reset.css';
 import './style.css';
+import './css-loader.css';
+
+import dark_night from './the-dark-night-wallpaper.jpg';
 
 import getWeather from './modules/api';
 import { validateInput, loadResults, clearDetailsView, convertTempFahrenheit, toggleMainView, toggleDetailsView } from './modules/helper'
@@ -7,15 +10,24 @@ import { validateInput, loadResults, clearDetailsView, convertTempFahrenheit, to
 const loadListerners = () => {
     const search_btn_listener = document.getElementById('search-btn');
     search_btn_listener.addEventListener('click', function() {
+        const loader = document.getElementById('loader');
+        loader.className = 'loader loader-default is-active';
+
         const user_input = document.getElementById('search-input').value.trim();
         if (validateInput(user_input)) {
             getWeather(user_input).then(resp => {
                 loadResults(resp);
                 toggleMainView();
                 document.getElementById('search-input').value = '';
+                loader.className = 'loader loader-default';
+            }).
+            catch((error) => {
+                loader.className = 'loader loader-default';
+                throw error;
             });
 
         } else {
+            loader.className = 'loader loader-default';
             console.log('Invalid entry');
         }
     });
@@ -71,6 +83,8 @@ const loadListerners = () => {
 };
 
 const main = () => {
+    document.body.style.background = `url(${dark_night})`;
+
     const mainView = document.getElementById('mainView');
     mainView.style.display = 'flex';
 

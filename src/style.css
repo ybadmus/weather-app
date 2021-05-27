@@ -5,7 +5,7 @@ body {
 }
 
 .background-home {
-    background: url("./the-dark-night-wallpaper.jpg");
+    background: url("./atmosphere.jpg");
     background-position-y: 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,8 +20,8 @@ body {
     background-position: center;
 }
 
-.background-cloudy {
-    background: url("./cloudy.gif");
+.background-clouds {
+    background: url("./clouds.gif");
     background-position-y: 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,24 +36,24 @@ body {
     background-position: center;
 }
 
-.background-lightning {
-    background: url("./lightning.gif");
+.background-thunderstorm {
+    background: url("./thunderstorm.gif");
     background-position-y: 0%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.background-rainy {
-    background: url("./rainy.gif");
+.background-rain {
+    background: url("./rain.gif");
     background-position-y: 0%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.background-snowy {
-    background: url("./snowy.gif");
+.background-snow {
+    background: url("./snow.gif");
     background-position-y: 0%;
     background-repeat: no-repeat;
     background-size: cover;

@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _the_dark_night_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./the-dark-night-wallpaper.jpg */ \"./src/the-dark-night-wallpaper.jpg\");\n/* harmony import */ var _clear_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clear.gif */ \"./src/clear.gif\");\n/* harmony import */ var _cloudy_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cloudy.gif */ \"./src/cloudy.gif\");\n/* harmony import */ var _drizzle_gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./drizzle.gif */ \"./src/drizzle.gif\");\n/* harmony import */ var _lightning_gif__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lightning.gif */ \"./src/lightning.gif\");\n/* harmony import */ var _rainy_gif__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./rainy.gif */ \"./src/rainy.gif\");\n/* harmony import */ var _snowy_gif__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./snowy.gif */ \"./src/snowy.gif\");\n// Imports\n\n\n\n\n\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_the_dark_night_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_2__);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_clear_gif__WEBPACK_IMPORTED_MODULE_3__);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_cloudy_gif__WEBPACK_IMPORTED_MODULE_4__);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_drizzle_gif__WEBPACK_IMPORTED_MODULE_5__);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_lightning_gif__WEBPACK_IMPORTED_MODULE_6__);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_rainy_gif__WEBPACK_IMPORTED_MODULE_7__);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_snowy_gif__WEBPACK_IMPORTED_MODULE_8__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n    font-family: 'Quattrocento Sans', sans-serif;\\r\\n    color: floralwhite;\\r\\n}\\r\\n\\r\\n.background-home {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-clear {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-cloudy {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-drizzle {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-lightning {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-rainy {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-snowy {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.content {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    justify-content: center;\\r\\n    align-items: center;\\r\\n    width: 100vw;\\r\\n    height: 97vh;\\r\\n}\\r\\n\\r\\n.logo {\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.footer {\\r\\n    background: black;\\r\\n    color: floralwhite;\\r\\n    padding: 10px;\\r\\n    position: absolute;\\r\\n    bottom: 0;\\r\\n    width: 100%;\\r\\n}\\r\\n\\r\\n.main {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    padding: 20px;\\r\\n    border: 1px solid floralwhite;\\r\\n    border-radius: 5px;\\r\\n}\\r\\n\\r\\n.resultView {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n\\r\\n.result-summary,\\r\\n.result-detail {\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    gap: 1em;\\r\\n    margin-bottom: 20px;\\r\\n}\\r\\n\\r\\n.back-btn,\\r\\n.change-unit-btn {\\r\\n    margin: 10px 0;\\r\\n}\\r\\n\\r\\n.summary {\\r\\n    padding: 0 15px 0 0;\\r\\n}\\r\\n\\r\\n.result-container {\\r\\n    padding: 20px;\\r\\n    border: 1px solid floralwhite;\\r\\n    border-radius: 5px;\\r\\n}\\r\\n\\r\\n.error-message {\\r\\n    padding: 7px;\\r\\n    margin: 20px 0px;\\r\\n    background-color: #aa0a0a;\\r\\n    color: white;\\r\\n    font-size: 15px;\\r\\n    border-radius: 5px;\\r\\n    display: none;\\r\\n    font-weight: 500;\\r\\n}\\r\\n\\r\\n.display-flex {\\r\\n    display: flex;\\r\\n}\\r\\n\\r\\n.display-none {\\r\\n    display: none;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _atmosphere_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./atmosphere.jpg */ \"./src/atmosphere.jpg\");\n/* harmony import */ var _clear_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clear.gif */ \"./src/clear.gif\");\n/* harmony import */ var _clouds_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./clouds.gif */ \"./src/clouds.gif\");\n/* harmony import */ var _drizzle_gif__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./drizzle.gif */ \"./src/drizzle.gif\");\n/* harmony import */ var _thunderstorm_gif__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./thunderstorm.gif */ \"./src/thunderstorm.gif\");\n/* harmony import */ var _rain_gif__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./rain.gif */ \"./src/rain.gif\");\n/* harmony import */ var _snow_gif__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./snow.gif */ \"./src/snow.gif\");\n// Imports\n\n\n\n\n\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_atmosphere_jpg__WEBPACK_IMPORTED_MODULE_2__);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_clear_gif__WEBPACK_IMPORTED_MODULE_3__);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_clouds_gif__WEBPACK_IMPORTED_MODULE_4__);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_drizzle_gif__WEBPACK_IMPORTED_MODULE_5__);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_thunderstorm_gif__WEBPACK_IMPORTED_MODULE_6__);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_rain_gif__WEBPACK_IMPORTED_MODULE_7__);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_snow_gif__WEBPACK_IMPORTED_MODULE_8__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n    font-family: 'Quattrocento Sans', sans-serif;\\r\\n    color: floralwhite;\\r\\n}\\r\\n\\r\\n.background-home {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-clear {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-clouds {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-drizzle {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-thunderstorm {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-rain {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.background-snow {\\r\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \");\\r\\n    background-position-y: 0%;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n    background-position: center;\\r\\n}\\r\\n\\r\\n.content {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    justify-content: center;\\r\\n    align-items: center;\\r\\n    width: 100vw;\\r\\n    height: 97vh;\\r\\n}\\r\\n\\r\\n.logo {\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.footer {\\r\\n    background: black;\\r\\n    color: floralwhite;\\r\\n    padding: 10px;\\r\\n    position: absolute;\\r\\n    bottom: 0;\\r\\n    width: 100%;\\r\\n}\\r\\n\\r\\n.main {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    padding: 20px;\\r\\n    border: 1px solid floralwhite;\\r\\n    border-radius: 5px;\\r\\n}\\r\\n\\r\\n.resultView {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n\\r\\n.result-summary,\\r\\n.result-detail {\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    gap: 1em;\\r\\n    margin-bottom: 20px;\\r\\n}\\r\\n\\r\\n.back-btn,\\r\\n.change-unit-btn {\\r\\n    margin: 10px 0;\\r\\n}\\r\\n\\r\\n.summary {\\r\\n    padding: 0 15px 0 0;\\r\\n}\\r\\n\\r\\n.result-container {\\r\\n    padding: 20px;\\r\\n    border: 1px solid floralwhite;\\r\\n    border-radius: 5px;\\r\\n}\\r\\n\\r\\n.error-message {\\r\\n    padding: 7px;\\r\\n    margin: 20px 0px;\\r\\n    background-color: #aa0a0a;\\r\\n    color: white;\\r\\n    font-size: 15px;\\r\\n    border-radius: 5px;\\r\\n    display: none;\\r\\n    font-weight: 500;\\r\\n}\\r\\n\\r\\n.display-flex {\\r\\n    display: flex;\\r\\n}\\r\\n\\r\\n.display-none {\\r\\n    display: none;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -100,6 +100,16 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/atmosphere.jpg":
+/*!****************************!*\
+  !*** ./src/atmosphere.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"dc70c94115ae09f9abdd.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/atmosphere.jpg?");
+
+/***/ }),
+
 /***/ "./src/clear.gif":
 /*!***********************!*\
   !*** ./src/clear.gif ***!
@@ -110,13 +120,13 @@ eval("module.exports = __webpack_require__.p + \"16fb894dde9bf43d68eb.gif\";\n\n
 
 /***/ }),
 
-/***/ "./src/cloudy.gif":
+/***/ "./src/clouds.gif":
 /*!************************!*\
-  !*** ./src/cloudy.gif ***!
+  !*** ./src/clouds.gif ***!
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"198e65a55ea2073ae30d.gif\";\n\n//# sourceURL=webpack://weather-app/./src/cloudy.gif?");
+eval("module.exports = __webpack_require__.p + \"198e65a55ea2073ae30d.gif\";\n\n//# sourceURL=webpack://weather-app/./src/clouds.gif?");
 
 /***/ }),
 
@@ -140,16 +150,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _res
 
 /***/ }),
 
-/***/ "./src/lightning.gif":
-/*!***************************!*\
-  !*** ./src/lightning.gif ***!
-  \***************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"24c7cfcb5514528cc8b4.gif\";\n\n//# sourceURL=webpack://weather-app/./src/lightning.gif?");
-
-/***/ }),
-
 /***/ "./src/modules/api.js":
 /*!****************************!*\
   !*** ./src/modules/api.js ***!
@@ -170,33 +170,33 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/rainy.gif":
-/*!***********************!*\
-  !*** ./src/rainy.gif ***!
-  \***********************/
+/***/ "./src/rain.gif":
+/*!**********************!*\
+  !*** ./src/rain.gif ***!
+  \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0c04e79715de31618f1b.gif\";\n\n//# sourceURL=webpack://weather-app/./src/rainy.gif?");
+eval("module.exports = __webpack_require__.p + \"0c04e79715de31618f1b.gif\";\n\n//# sourceURL=webpack://weather-app/./src/rain.gif?");
 
 /***/ }),
 
-/***/ "./src/snowy.gif":
-/*!***********************!*\
-  !*** ./src/snowy.gif ***!
-  \***********************/
+/***/ "./src/snow.gif":
+/*!**********************!*\
+  !*** ./src/snow.gif ***!
+  \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"68dad4e8d256ffdc00a6.gif\";\n\n//# sourceURL=webpack://weather-app/./src/snowy.gif?");
+eval("module.exports = __webpack_require__.p + \"68dad4e8d256ffdc00a6.gif\";\n\n//# sourceURL=webpack://weather-app/./src/snow.gif?");
 
 /***/ }),
 
-/***/ "./src/the-dark-night-wallpaper.jpg":
-/*!******************************************!*\
-  !*** ./src/the-dark-night-wallpaper.jpg ***!
-  \******************************************/
+/***/ "./src/thunderstorm.gif":
+/*!******************************!*\
+  !*** ./src/thunderstorm.gif ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"dc70c94115ae09f9abdd.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/the-dark-night-wallpaper.jpg?");
+eval("module.exports = __webpack_require__.p + \"24c7cfcb5514528cc8b4.gif\";\n\n//# sourceURL=webpack://weather-app/./src/thunderstorm.gif?");
 
 /***/ })
 

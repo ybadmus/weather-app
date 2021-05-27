@@ -9,6 +9,14 @@ body {
     color: floralwhite;
 }
 
+.background-home {
+    background: url("file:///C:/Users/Yusif/source/Microverse/Javascript/weather-app/dist/dc70c94115ae09f9abdd.jpg");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .content {
     display: flex;
     flex-direction: column;
